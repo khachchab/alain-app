@@ -46,12 +46,13 @@ export default function Services() {
             p={2}
             alignSelf={'flex-start'}
             rounded={'md'}>
-            Our Story
+            Nos services 
           </Text>
-          <Heading>A digital Product design agency</Heading>
+          <Heading>Nous offrons une gamme complète de services de décoration d'intérieur</Heading>
           <Text color={'gray.500'} fontSize={'lg'}>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-            eirmod tempor invidunt ut labore
+          Nous mettons à votre disposition une expertise approfondie en matière de sélection de couleurs,
+         de textures et d'agencement spatial pour créer des intérieurs harmonieux et élégants,
+          en harmonie avec votre style de vie et vos préférences esthétiques.
           </Text>
           <Stack
             spacing={4}
@@ -61,17 +62,17 @@ export default function Services() {
             <Feature
               icon={<Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />}
               iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-              text={'Business Planning'}
+              text={'Conception et planification d intérieurs'}
             />
             <Feature
               icon={<Icon as={IoLogoBitcoin} color={'green.500'} w={5} h={5} />}
               iconBg={useColorModeValue('green.100', 'green.900')}
-              text={'Financial Planning'}
+              text={'Facilités de paiement flexibles disponibles pour tous les projets de décoration'}
             />
             <Feature
               icon={<Icon as={IoSearchSharp} color={'purple.500'} w={5} h={5} />}
               iconBg={useColorModeValue('purple.100', 'purple.900')}
-              text={'Market Analysis'}
+              text={'Conseils personnalisés en matière de décoration'}
             />
           </Stack>
         </Stack>
@@ -79,8 +80,7 @@ export default function Services() {
           <Image
             rounded={'md'}
             alt={'feature image'}
-            src={
-              'https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
+            src={'https://www.decorilla.com/online-decorating/wp-content/uploads/2022/07/Contemporary-interior-design-and-decor-Urbanology-Designs.jpg'
             }
             objectFit={'cover'}
           />

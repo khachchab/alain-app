@@ -42,17 +42,19 @@ export default function About() {
                 bg: 'red.400',
                 zIndex: -1,
               }}>
-              Write once,
+               Alain TERIEUR, 
             </Text>
             <br />
             <Text as={'span'} color={'red.400'}>
-              use everywhere!
+            expert en décoration d'intérieur!
             </Text>
           </Heading>
           <Text color={'gray.500'}>
-            Snippy is a rich coding snippets app that lets you create your own code
-            snippets, categorize them, and even sync them in the cloud so you can use them
-            anywhere. All that is free!
+          Bienvenue sur le site d'Alain TERRIEUR, 
+          votre expert en décoration d'intérieur.
+          Fort d'une expérience de plus de 15 ans,
+           Alain TERRIEUR s'est spécialisé dans la création d'espaces uniques et fonctionnels,
+            adaptés à vos besoins et à vos goûts.Notre objectif est de transformer vos espaces de vie en des environnements esthétiques et accueillants qui reflètent votre style personnel.
           </Text>
           <Stack spacing={{ base: 4, sm: 6 }} direction={{ base: 'column', sm: 'row' }}>
             <Button
@@ -63,7 +65,7 @@ export default function About() {
               colorScheme={'red'}
               bg={'red.400'}
               _hover={{ bg: 'red.500' }}>
-              Get started
+              Nous contacter
             </Button>
             <Button
               rounded={'full'}
@@ -115,8 +117,7 @@ export default function About() {
               align={'center'}
               w={'100%'}
               h={'100%'}
-              src={
-                'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
+              src={'https://jumanji.livspace-cdn.com/magazine/wp-content/uploads/sites/2/2021/06/10131120/interior-wall-design.jpg'
               }
             />
           </Box>
